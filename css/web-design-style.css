@@ -1,0 +1,92 @@
+/* GLOBAL */
+.projects_section {
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-evenly;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    padding: 6em;
+    
+}
+
+.projects-text {
+    color: var(--text-light);
+    font-size: 1.2rem;
+    letter-spacing: .1rem;
+    width: 40vw;
+    padding: 2em;
+    border-radius: 5em;
+    border-left: .8em solid var(--text-light);
+}
+
+.projects-text P {
+    margin-bottom: 2rem;
+}
+
+.projects-text a {
+    color: #06D6EE;
+    text-decoration: none;
+}
+
+.projects-text ol {
+    margin-left: 2rem;
+}
+
+.individual_project_title {
+
+}
+
+.projects_thumbnail_container {
+    padding-top: 2em;
+}
+
+
+/* MOTOWITCH SECTION */
+#motowitch-section {
+    background: linear-gradient(rgba(2, 108, 160, .5), rgba(2, 163, 218, .5)), url('../images/motowitch-section-bg-1920-1280.jpg');
+    margin-top: 3em;
+    
+}
+
+
+/* TRANSTECK SECTION */
+#transteck-section {
+    background: url('../images/transtecksection-bg-1920-1280.jpg');
+   
+}
+
+/* ENDA WYATT SECTION */
+#endawyatt-section {
+    background: url('../images/endawyatt-bg-1920-1280.jpg');
+}
+
+/* DIVILS SECTION */
+#divils-section {
+    background: url('../images/transtecksection-bg-1920-1280.jpg');
+}
+
+/* MEDIA QUERIES */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .rounded-circle {
+        border-radius: 50% !important;
+        width: 80%;
+    }
+
+    .projects_section {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .projects-text {
+        width: 80vw;
+        border-radius: 3em;
+        border-left: 0;
+        border-bottom: .8em solid var(--text-light);
+    }
+}
