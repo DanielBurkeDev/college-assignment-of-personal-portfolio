@@ -1,4 +1,4 @@
-# idwd-a1
+# college assignment of personal portfolio
 This was a personal portfolio project for an assignment for a web development module in college.
 Media queries have yet to be added or refined.
 
